@@ -44,3 +44,8 @@ This project relies on Sentinel-2 imagery accessed via Google Earth Engine. Sent
    ```bash
    git clone https://github.com/Hadikheiri/Urmia_Lake_Change_Detection.git
    cd Urmia_Lake_Change_Detection
+
+2. **Install Required Dependencies: Make sure Python is installed, then run:**:
+  ```bash
+pip install -r requirements.txt
+
