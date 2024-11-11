@@ -41,10 +41,22 @@ This project relies on Sentinel-2 imagery accessed via Google Earth Engine. Sent
 ## 🚀 How to Run This Project
 
 1. **Clone the Repository**:
+2. **Set Up Your Python Environment**:
+3. **Install Required Dependencies**
+4. **Authenticate Google Earth Engine**
+5. **Run the Jupyter Notebooks**
    ```bash
    git clone https://github.com/Hadikheiri/Urmia_Lake_Change_Detection.git
    cd Urmia_Lake_Change_Detection
 
-2. **Install Required Dependencies: Make sure Python is installed, then run:**:
-  ```bash
-    pip install -r requirements.txt
+   python -m venv env
+   source env/bin/activate  # On Windows: .\env\Scripts\activate
+
+   pip install -r requirements.txt
+
+   earthengine authenticate
+
+   jupyter notebook
+
+
+  
