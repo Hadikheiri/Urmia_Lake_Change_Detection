@@ -1,7 +1,7 @@
 # Change Detection Analysis of Urmia Lake (2017-2024)
 
 ## 📊 Project Overview
-This repository presents a comprehensive analysis of surface area changes in Urmia Lake, Iran, using Sentinel-2 satellite imagery. Urmia Lake, once one of the largest saltwater lakes in the Middle East, has experienced substantial shrinkage over the past few decades due to factors such as climate change, decreasing precipitation, and extensive human water consumption. The aim of this project is to quantify these changes from 2017 to 2024 and analyze the impact of water management policies, especially water transfer projects.
+This repository presents a comprehensive analysis of surface area changes in Urmia Lake, Iran, using Sentinel-2 satellite imagery. Urmia Lake, once one of the largest saltwater lakes in the Middle East, has experienced substantial shrinkage over the past few decades due to factors such as climate change, decreasing precipitation, and extensive human water consumption. This project aims to quantify these changes from 2017 to 2024 and analyze the impact of water management policies, especially water transfer projects.
 
 ## 🛠️ Tools and Technologies Used
 - **Programming Language**: Python
@@ -37,3 +37,10 @@ This project relies on Sentinel-2 imagery accessed via Google Earth Engine. Sent
 ### Visualization
 - Generated graphical representations, including heatmaps and line plots, to illustrate the trend of surface area changes.
 - Visualized before-and-after comparisons to highlight the effects of interventions on lake levels.
+
+## 🚀 How to Run This Project
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Hadikheiri/Urmia_Lake_Change_Detection.git
+   cd Urmia_Lake_Change_Detection
