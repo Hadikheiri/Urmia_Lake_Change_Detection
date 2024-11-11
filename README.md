@@ -41,11 +41,12 @@ This project relies on Sentinel-2 imagery accessed via Google Earth Engine. Sent
 ## 🚀 How to Run This Project
 
 1. **Clone the Repository**:
-2. **Set Up Your Python Environment**:
+2. **Set Up Your Python Environment**
 3. **Install Required Dependencies**
 4. **Authenticate Google Earth Engine**
 5. **Run the Jupyter Notebooks**
    ```bash
+
    git clone https://github.com/Hadikheiri/Urmia_Lake_Change_Detection.git
    cd Urmia_Lake_Change_Detection
 
@@ -57,6 +58,17 @@ This project relies on Sentinel-2 imagery accessed via Google Earth Engine. Sent
    earthengine authenticate
 
    jupyter notebook
+   
+Open the following notebooks in sequence to run the analysis:
 
+  - GEE_img_download.ipynb: Retrieves the Sentinel-2 data for the specified time range.
+  - RF_supervised_class.ipynb and MLP_supervised.ipynb: Run supervised classification models.
+  - match_histograms_skimage_rasterio.ipynb: Adjusts image histograms for consistent visual analysis.
 
+  6. **Results Interpretation**
+     The notebooks will generate graphical outputs showcasing changes in Urmia Lake’s surface area.
+     Review the plots to interpret the impact of water management interventions on lake levels.
+
+## 🤝 Contributing
+  Contributions are welcome! If you'd like to improve this project, please fork the repository and create a pull request.
   
