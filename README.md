@@ -65,9 +65,10 @@ Open the following notebooks in sequence to run the analysis:
   - RF_supervised_class.ipynb and MLP_supervised.ipynb: Run supervised classification models.
   - match_histograms_skimage_rasterio.ipynb: Adjusts image histograms for consistent visual analysis.
 
-  6. **Results Interpretation**
-The notebooks will generate graphical outputs showcasing changes in Urmia Lake’s surface area.
-Review the plots to interpret the impact of water management interventions on lake levels.
+  6. **Results Interpretation :**
+     
+- The notebooks will generate graphical outputs showcasing changes in Urmia Lake’s surface area.
+- Review the plots to interpret the impact of water management interventions on lake levels.
 
 ## 🤝 Contributing
   Contributions are welcome! If you'd like to improve this project, please fork the repository and create a pull request.
